@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Car DB</title>
+  <link rel="stylesheet" type="text/css" href="bundle.css">
+  
+</head>
+
+<body>
+<h2>Alle biler</h2>
+<button id="getAllCarsButton">Hent alle biler</button>
+<table id="carTable"></table>
+
+<h2>Søg på id</h2>
+<input id="carId"type="number" placeholder="Indtast id">
+<button id="getCarIdButton">Søg på id</button>
+<table id="carByIdTable"></table>
+
+<h2>Opret ny bil</h2>
+
+<input id="brand" placeholder="Mærke">
+<input id="model" placeholder="Model">
+<input id="year" type="number" placeholder="Årgang">
+<button id="createCar">Opret bil</button>
+<p id="statusBar"></p>
+
+<h2>Slet bil</h2>
+<input id="deleteId" placeholder="Indtast id">
+<button id="deleteCar">Slet bil</button>
+<p id="deleteStatusBar"></p>
+
+<h2>Opdatér bil</h2>
+
+<input id="carUpdateId"type="number" placeholder="Indtast id">
+<input id="brand2" placeholder="Mærke">
+<input id="model2" placeholder="Model">
+<input id="year2" type="number" placeholder="Årgang">
+<button id="updateCar">Opdatér bil</button>
+<p id="statusBarUpdate"></p>
+
+<script src="bundle.js"></script>
+</body>
+</html>
